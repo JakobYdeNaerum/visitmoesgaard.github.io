@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+font-family: "Ubuntu";
+}
+
+/* nav bar */
+
+header {
+    background-color: #2D441F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav-link {
+
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    padding: 10px;      
+    font-size: 16px;
+    margin: 0 50px;
+     
+}
+  
+.nav-link:hover{
+    background-color: #ffffff3d;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+  
+.logo img {
+    width: 75px;
+    height: 75px;
+    margin-right: 100px;
+    margin-left: 35px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+    background-color: #BBBBBB;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5%;
+   
+}
+
+
+
+footer{
+    text-align: left;
+}
+
+.footer {
+  flex-basis: 30%;
+}
+.footer3 {
+    display: block;
+    
+    
+}
+.footer3 h4{
+    padding-left: 15px;
+}
+
+.footer h4{
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight:bolder
+}
+
+
+
+
+/* mobile first */
+
+
+@media (max-width: 865px) {
+
+/* nav bar */
+
+nav {
+    display: none;
+}
+
+.hamburger-menu {
+    display: block;
+    padding-left: 30px;
+}
+  
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 4px 0;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+  
+
+
+  
+.footer {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+
+}
+
+.footer h4{
+    font-size: 20px;
+    font-weight:bolder
+}
+
+.footer3 {
+    display: none;
+
+}
+.footer3 h4 {
+    font-size: 20px;
+    font-weight:bolder 
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+    .nav-link { 
+        font-size: 14px;
+        margin: 0 20px;
+    }
+
+}
+
