@@ -39,6 +39,34 @@ p {
     font-size: 1.5vw;
 }
 
+/* burgermenu nav */
+
+#burgerside{
+    width:100%;
+    font-size:15pt;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center; 
+    background-color: #2D441F;
+}
+
+#burgerside a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom: 1px solid black;
+    width:100%;
+    display:flex;
+    justify-content:center;  
+}
+#burgerside a:hover {
+    background-color: #BBBBBB;
+   
+     
+}
+
 
 
 /* nav bar */
