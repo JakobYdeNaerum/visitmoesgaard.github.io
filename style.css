@@ -207,7 +207,7 @@ nav {
     border-radius: 20px;
     margin: 20px;
     padding: 20px;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .kort:hover {
@@ -217,8 +217,8 @@ nav {
 
 .kort img {
     border-radius: 5px;
-    height: 100%;
-    width: 100%;
+    height: 300px;
+    width: 385px;
     justify-content: center;
 }
 
@@ -266,14 +266,14 @@ nav {
     margin-top: 200px;
     margin-bottom: 25px;
     margin-left: 6%;
-    z-index: 2;
+
 }
 
 .baggrundsbilled p {
     font-size: 1vw;
     margin-left: 6%;
     margin-right: 15%;
-    line-height: 1.6;
+    
 
 
 }
@@ -462,11 +462,15 @@ footer {
 @media (max-width: 900px) {
 
     h2 {
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
     p {
-        font-size: 2vw;
+        font-size: 2.7vw;
+    }
+
+    h4{
+        font-size: 3.5vw;
     }
 
     /* nav bar */
@@ -502,6 +506,14 @@ footer {
     #forsidebilled-mobil {
 
         display: block;
+
+    }
+
+    .billed-text {
+      
+        font-size: 10vw;
+       
+    
     }
 
 
@@ -509,21 +521,24 @@ footer {
 
 
     /* billeder i toppen */
-    .baggrundsbilled h2 {
-        font-size: 4vw;
-        margin-top: 200px;
-        margin-bottom: 25px;
-        margin-left: 10%;
-    }
-
-    .baggrundsbilled p {
-        font-size: 2vw;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+ 
 
     .div1 {
         display: none;
+    }
+
+    .baggrundsbilled h2 {
+        font-size: 4vw;
+       
+    
+    }
+    
+    .baggrundsbilled p {
+        font-size: 3vw;
+        
+        
+    
+    
     }
 
     /* billedmobil */
@@ -566,6 +581,8 @@ footer {
         margin-left: 12%;
 
     }
+  
+    
 
 
 
@@ -664,6 +681,8 @@ footer {
 
         font-size: 1vw;
     }
+
+  
 
 
 }
